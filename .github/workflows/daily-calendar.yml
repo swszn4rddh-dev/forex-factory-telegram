@@ -2,7 +2,7 @@ name: Daily Forex Factory Calendar
 
 on:
   schedule:
-    - cron: '0 7 * * *'      # Jeden Tag um 7:00 Uhr Berlin-Zeit
+    - cron: '0 19 * * *'      # Jeden Tag um 7:00 Uhr Berlin-Zeit
   workflow_dispatch:         # Manuell ausführen zum Testen
 
 jobs:
